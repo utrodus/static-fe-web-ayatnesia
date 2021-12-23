@@ -624,6 +624,10 @@ footer p {
   .arabic-block h5 {
     font-size: 22px;
   }
+
+  .user-dashboard .item .card .card-body {
+        padding: 15px 30px;
+  }
 }
 
 @media (max-width: 576px) {}
