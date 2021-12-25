@@ -152,10 +152,10 @@ header img {
 
 .sidebar-nav>li a span,
 .user-dashboard .dropdown-menu li span {
-    font-size: 35px;
-    font-weight: 500;
-    font-family: Mishafi-Gold;
-    margin-left: 3px; 
+  font-size: 35px;
+  font-weight: 500;
+  font-family: Mishafi-Gold;
+  margin-left: 3px; 
 }
 
 .sidebar-nav>li>a i.fa {
@@ -170,7 +170,7 @@ header img {
 #content-wrapper {
   width: 100%;
   padding: 30px 30px 40px 30px;
-      min-height: calc(100vh - 105px);
+  min-height: calc(100vh - 105px);
 
 }
 
@@ -185,7 +185,7 @@ header img {
   position: fixed;
   width: 100%;
   box-shadow: 0 0 5px rgb(0 0 0 / 26%);
-  z-index: 99999;
+  z-index: 999;
   top: 0;
   padding: 2px 30px 2px 30px;
 }
@@ -277,8 +277,8 @@ header img {
   font-size: 40px;
   margin-bottom: 5px;
   color: #000;
-      font-family: Mishafi-Gold;
-      text-align: right;
+  font-family: Mishafi-Gold;
+  text-align: right;
 }
 
 .modal .modal-body p {
@@ -301,12 +301,12 @@ header img {
 }
 
 .fa-times {
-    position: absolute;
-    right: 15px;
-    font-size: 22px;
-    top: 10px;
-    color: #22b1c3;
-    -webkit-text-stroke: 2px #fafafa;
+  position: absolute;
+  right: 15px;
+  font-size: 22px;
+  top: 10px;
+  color: #22b1c3;
+  -webkit-text-stroke: 2px #fafafa;
 }
 
 .search-block .item {
@@ -377,19 +377,19 @@ header img {
 }
 
 .user-dashboard .dropdown-menu {
-     width: 100%;
-    padding: 10px 20px;
-    height: 203px;
-    overflow: scroll;
-    border: none;
-    border-radius: 6px;
-    box-shadow: 0 0 5px #0b0a0a40;
+ width: 100%;
+ padding: 10px 20px;
+ height: 203px;
+ overflow: scroll;
+ border: none;
+ border-radius: 6px;
+ box-shadow: 0 0 5px #0b0a0a40;
 }
 
 .user-dashboard .dropdown-menu li {
-      border-bottom: 1px solid #d3d1d1;
-      padding: 6px 0;
- }
+  border-bottom: 1px solid #d3d1d1;
+  padding: 6px 0;
+}
 
 .user-dashboard .dropdown-menu li a {
   font-size: 14px;
@@ -462,9 +462,9 @@ footer p {
 }
 
 .faq-section .card .card-header .btn-header-link span {
-     font-weight: 500;
-    font-size: 35px;
-    font-family: Mishafi-Gold;
+ font-weight: 500;
+ font-size: 35px;
+ font-family: Mishafi-Gold;
 }
 
 .faq-section .card .card-header .btn-header-link small {
@@ -505,9 +505,6 @@ footer p {
   line-height: 30px;
 }
 
-.faq-section .accordion .card {
-  box-shadow: none;
-}
 
 .faq-section .accordion .card-header {
   background: transparent;
@@ -539,6 +536,12 @@ footer p {
 
 .icon-block a img {
   width: 18px;
+}
+
+.arabic-font {
+  font-size: 32px;
+  font-family: Mishafi-Gold;
+  line-height: 22px;
 }
 
 
@@ -600,7 +603,7 @@ footer p {
     margin-top: 10px;
   }
 
-    #wrapper {
+  #wrapper {
     padding-top: 52px;
   }
 
@@ -665,8 +668,9 @@ footer p {
   }
 
   .user-dashboard .item .card .card-body {
-        padding: 15px 30px;
+    padding: 15px 30px;
   }
 }
 
 @media (max-width: 576px) {}
+
