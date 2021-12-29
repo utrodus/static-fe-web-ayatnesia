@@ -1,4 +1,9 @@
 @font-face {
+  font-family: Poppins;
+  src: url('../../assets/fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
   font-family: Mishafi-Gold;
   src: url('../../assets/fonts/Mishafi-Gold.ttf');
 }
@@ -7,7 +12,7 @@ body {
   position: relative;
   min-height: 100%;
   color: #435C64 !important;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins;
   background: #FAFAFA;
 }
 
