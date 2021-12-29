@@ -7,7 +7,7 @@
    <!-- Favicon -->
    <link href="assets/images/favicon.png" sizes="60x60" rel="shortcut icon" type="image/x-icon" />
    <!-- Font Awsome -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
    <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
@@ -130,11 +130,11 @@
                      <div id="faq2" class="collapse show" aria-labelledby="faqhead2" data-parent="#faq" style="">
                         <div class="card-body">
                            <div class="text-center">
-                             <a href="javascript:void(0)" class="btn btn-primary px-2" id="pre-button"><i class="fa fa-angle-left mr-1"></i> Previous</a>
-                             <hr class="mt-3 pb-3">
+                            <a href="javascript:void(0)" class="btn btn-primary px-2" id="pre-button"><i class="fa fa-angle-left mr-1"></i> Previous</a>
+                            <hr class="mt-3 pb-3">
 
-                          </div>
-                          <div id="previous-slide">
+                         </div>
+                         <div id="previous-slide">
                            <div class="media mb-3">
                               <img width="25" src="assets/images/icon.png" class="mr-2" alt="icon">
                               <div class="media-body">
@@ -231,40 +231,40 @@
    const $wrapper = document.querySelector('#wrapper');
 
    $button.addEventListener('click', (e) => {
-     e.preventDefault();
-     $wrapper.classList.toggle('toggled');
-  });
+    e.preventDefault();
+    $wrapper.classList.toggle('toggled');
+ });
 </script>
 <script>
    $(document).ready(function(){
-     $("#close").click(function(){
-       $("#wrapper").removeClass('toggled');
+    $("#close").click(function(){
+     $("#wrapper").removeClass('toggled');
+  });
+ });
+</script>
+<script>
+   $(document).ready(function(){
+     $("#click-arabic").click(function(){
+       $(".hide-arabic").slideToggle(500);
+       var thisElem = $(this);
+       thisElem.text(thisElem.text() === "Show Arabic" ? "Hide Arabic" : "Show Arabic");
+       event.stopPropagation();
     });
-  });
-</script>
-<script>
-   $(document).ready(function(){
-    $("#click-arabic").click(function(){
-     $(".hide-arabic").slideToggle(500);
-     var thisElem = $(this);
-     thisElem.text(thisElem.text() === "Show Arabic" ? "Hide Arabic" : "Show Arabic");
-     event.stopPropagation();
-  });
- });  
+  });  
 
 
    $("#next-slide").hide()
 
    $(document).ready(function(){
-    $("#next-button").click(function(){
+     $("#next-button").click(function(){
       $("#next-slide").slideDown(500);
    });
 
-    $("#pre-button").click(function(){
-     $("#next-slide").slideUp(500);
-  });
+     $("#pre-button").click(function(){
+       $("#next-slide").slideUp(500);
+    });
 
- });
+  });
 
 </script>
 </body>

@@ -7,7 +7,7 @@
    <!-- Favicon -->
    <link href="assets/images/favicon.png" sizes="60x60" rel="shortcut icon" type="image/x-icon" />
    <!-- Font Awsome -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
    <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
@@ -27,51 +27,51 @@
       <aside id="sidebar-wrapper">
          <a href="javascript:void(0)" class="d-md-none" id="close"><i class="fa fa-times"></i></a>
          <ul class="sidebar-nav">
-               <li class="active">
-                  <a href="index.html"><i class="fa fa-home"></i> Home</a>
-               </li>
-               <li>
-                  <a href="javascript:void(0)"><i class="fa fa-envelope"></i> Contact Us</a>
-               </li>
-               <li>
-                  <div class="input-group mt-2">
-                     <input type="text" class="form-control" placeholder="Search filter">
-                  </div>
-               </li>
-               <li>
-                  <a href="surah.html">1 Al-Fatiha <span>سورة الفاتحة  </span></a>
-               </li>
-               <li>
-                  <a href="surah.html">1 Al-Fatiha <span>سورة الفاتحة  </span></a>
-               </li>
-               <li>
-                  <a href="surah.html">1 Al-Fatiha <span>سورة الفاتحة  </span></a>
-               </li>
-               <li>
-                  <a href="surah.html">1 Al-Fatiha <span>سورة الفاتحة  </span></a>
-               </li>
-               <li>
-                  <a href="surah.html">1 Al-Fatiha <span>سورة الفاتحة  </span></a>
-               </li>
-               <li>
-                  <a href="surah.html">1 Al-Fatiha <span>سورة الفاتحة  </span></a>
-               </li>
-               <li>
-                  <a href="surah.html">1 Al-Fatiha <span>سورة الفاتحة  </span></a>
-               </li>
-               <li>
-                  <a href="surah.html">1 Al-Fatiha <span>سورة الفاتحة  </span></a>
-               </li>
-               <li>
-                  <a href="surah.html">1 Al-Fatiha <span>سورة الفاتحة  </span></a>
-               </li>
-               <li>
-                  <a href="surah.html">1 Al-Fatiha <span>سورة الفاتحة  </span></a>
-               </li>
-               <li>
-                  <a href="surah.html">1 Al-Fatiha <span>سورة الفاتحة  </span></a>
-               </li>
-            </ul>
+            <li class="active">
+               <a href="index.html"><i class="fa fa-home"></i> Home</a>
+            </li>
+            <li>
+               <a href="javascript:void(0)"><i class="fa fa-envelope"></i> Contact Us</a>
+            </li>
+            <li>
+               <div class="input-group mt-2">
+                  <input type="text" class="form-control" placeholder="Search filter">
+               </div>
+            </li>
+            <li>
+               <a href="surah.html">1 Al-Fatiha <span>سورة الفاتحة  </span></a>
+            </li>
+            <li>
+               <a href="surah.html">1 Al-Fatiha <span>سورة الفاتحة  </span></a>
+            </li>
+            <li>
+               <a href="surah.html">1 Al-Fatiha <span>سورة الفاتحة  </span></a>
+            </li>
+            <li>
+               <a href="surah.html">1 Al-Fatiha <span>سورة الفاتحة  </span></a>
+            </li>
+            <li>
+               <a href="surah.html">1 Al-Fatiha <span>سورة الفاتحة  </span></a>
+            </li>
+            <li>
+               <a href="surah.html">1 Al-Fatiha <span>سورة الفاتحة  </span></a>
+            </li>
+            <li>
+               <a href="surah.html">1 Al-Fatiha <span>سورة الفاتحة  </span></a>
+            </li>
+            <li>
+               <a href="surah.html">1 Al-Fatiha <span>سورة الفاتحة  </span></a>
+            </li>
+            <li>
+               <a href="surah.html">1 Al-Fatiha <span>سورة الفاتحة  </span></a>
+            </li>
+            <li>
+               <a href="surah.html">1 Al-Fatiha <span>سورة الفاتحة  </span></a>
+            </li>
+            <li>
+               <a href="surah.html">1 Al-Fatiha <span>سورة الفاتحة  </span></a>
+            </li>
+         </ul>
       </aside>
       <section id="content-wrapper" class="user-dashboard">
          <div class="row align-items-center">
@@ -182,26 +182,26 @@
       const $wrapper = document.querySelector('#wrapper');
       
       $button.addEventListener('click', (e) => {
-        e.preventDefault();
-        $wrapper.classList.toggle('toggled');
-     });
-  </script>
-  <script>
-   $(document).ready(function(){
-     $("#close").click(function(){
-       $("#wrapper").removeClass('toggled');
+       e.preventDefault();
+       $wrapper.classList.toggle('toggled');
     });
+ </script>
+ <script>
+   $(document).ready(function(){
+    $("#close").click(function(){
+     $("#wrapper").removeClass('toggled');
   });
+ });
 </script>
 <script>
    $(document).ready(function(){
-     $("#click-arabic").click(function(){
-       $(".hide-arabic").slideToggle(500);
-       var thisElem = $(this);
-       thisElem.text(thisElem.text() === "Show Arabic" ? "Hide Arabic" : "Show Arabic");
-       event.stopPropagation();
-    });
+    $("#click-arabic").click(function(){
+     $(".hide-arabic").slideToggle(500);
+     var thisElem = $(this);
+     thisElem.text(thisElem.text() === "Show Arabic" ? "Hide Arabic" : "Show Arabic");
+     event.stopPropagation();
   });
+ });
    
    
    
