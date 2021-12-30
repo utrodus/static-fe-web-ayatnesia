@@ -281,7 +281,7 @@ header img {
 
 .modal .modal-body p {
 	font-size: 16px;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 }
 
 .modal .form-group {
@@ -413,7 +413,7 @@ footer p {
 }
 
 .arabic-block h5 {
-	font-size: 50px;
+	font-size: 45px;
 	color: #000;
 	font-family: Mishafi-Gold;
 }
@@ -597,7 +597,7 @@ ul.social-network li {
 }
 
 .social-network a.icoGoogle {
-	background-color:#BD3518;
+	background-color:#fb3958;
 }
 
 .social-network a.icoLinkedin {
@@ -612,14 +612,14 @@ ul.social-network li {
 	-webkit-border-radius:50%;
 	border-radius:50%;
 	text-align:center;
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 	font-size:20px;
 	background: #22b1c3;
 }
 .social-circle li i {
 	margin:0;
-	line-height:50px;
+	line-height:40px;
 	text-align: center;
 }
 
@@ -648,6 +648,12 @@ ul.social-network li {
 
 /* Media Query */
 
+
+@media (min-width: 576px) {
+.modal-dialog {
+    max-width: 350px;
+}
+}
 @media (min-width: 767px) {
 	#wrapper {
 		padding-left: 240px;
