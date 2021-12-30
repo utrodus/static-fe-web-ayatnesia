@@ -519,7 +519,7 @@ footer p {
 .icon-block {
 	position: absolute;
 	right: 10px;
-	top: 7px;
+	top: 14px;
 }
 
 .icon-block a {
@@ -527,7 +527,7 @@ footer p {
 	border-radius: 3px;
 	width: 30px;
 	height: 30px;
-	display: block;
+	display: inline-block;
 	margin-bottom: 8px;
 	text-align: center;
 	line-height: 30px;
