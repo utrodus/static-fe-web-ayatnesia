@@ -160,7 +160,7 @@ header img {
 	font-size: 30px;
 	font-weight: 500;
 	font-family: Mishafi-Gold;
-	margin-left: 3px; 
+	margin-left: 3px;
 }
 
 .sidebar-nav>li>a i.fa {
@@ -185,7 +185,7 @@ header img {
 }
 
 .navbar {
-    background: var(--gradient, linear-gradient(-135deg, #79C498 0%, #1ea097 100%));
+	background: var(--gradient, linear-gradient(-135deg, #79C498 0%, #1ea097 100%));
 	color: #fff;
 	position: fixed;
 	width: 100%;
@@ -350,7 +350,7 @@ header img {
 	color: #1ea097;
 }
 
-.search-engine button a{
+.search-engine button a {
 	color: #fff;
 }
 
@@ -381,7 +381,7 @@ header img {
 }
 
 .user-dashboard .dropdown-menu {
-	width: 50%;
+	width: 23%;
 	padding: 10px 20px;
 	border: none;
 	border-radius: 6px;
@@ -398,7 +398,7 @@ header img {
 
 }
 
-.user-dashboard .dropdown-menu li span  {
+.user-dashboard .dropdown-menu li span {
 	line-height: 21px;
 	font-size: 30px;
 }
@@ -416,15 +416,11 @@ footer p {
 	color: #1D1D35;
 }
 
-footer p a{
+footer p a {
 	color: #1ea097 !important;
 	font-weight: bold;
 }
 
-footer p i.fa-heart:before {
-    content: "\f004";
-    color: red;
-}
 
 .arabic-block h5 {
 	font-size: 45px;
@@ -485,7 +481,6 @@ footer p i.fa-heart:before {
 }
 
 .faq-section .card .card-header .btn-header-link:after {
-	content: "\f106";
 	font: normal normal normal 14px/1 FontAwesome;
 	font-weight: 900;
 	float: left;
@@ -508,11 +503,6 @@ footer p i.fa-heart:before {
 	border-radius: 0;
 }
 
-.faq-section .card .card-header .btn-header-link.collapsed:after {
-	content: "\f107";
-	color: #fff;
-}
-
 .faq-section .card .collapsing {
 	background: #fff;
 	line-height: 30px;
@@ -526,7 +516,7 @@ footer p i.fa-heart:before {
 }
 
 .faq-section .accordion .card-body {
-	padding: 20px 25px 15px;
+	padding: 32px 26px;
 	font-size: 16px;
 }
 
@@ -557,6 +547,20 @@ footer p i.fa-heart:before {
 	line-height: 22px;
 }
 
+.tafsir {
+	width: 34px;
+	height: 34px;
+	margin-right: 15px;
+	margin-top: -15px;
+	text-align: center;
+	font-weight: 600;
+
+}
+
+.media-body p{
+	line-height: 2em;
+}
+
 .number {
 	background-image: url(../../assets/images/number.png);
 	width: 34px;
@@ -569,24 +573,21 @@ footer p i.fa-heart:before {
 	font-weight: 600;
 	color: #D17D34;
 	margin-right: 15px;
-	    margin-top: -5px;
+	margin-top: -5px;
 }
 
 
-#sidebar-wrapper::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
+#sidebar-wrapper::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
 	background-color: #fafafa;
 }
 
-#sidebar-wrapper::-webkit-scrollbar
-{
+#sidebar-wrapper::-webkit-scrollbar {
 	width: 6px;
 	background-color: #fafafa;
 }
 
-#sidebar-wrapper::-webkit-scrollbar-thumb
-{
+#sidebar-wrapper::-webkit-scrollbar-thumb {
 	background-color: #1ea097;
 }
 
@@ -595,50 +596,53 @@ footer p i.fa-heart:before {
 ul.social-network {
 	list-style: none;
 	display: inline;
-	margin-left:0 !important;
+	margin-left: 0 !important;
 	padding: 0;
 }
+
 ul.social-network li {
 	display: inline;
 	margin: 0 5px;
 }
 
 .social-network a.icoFacebook {
-	background-color:#3B5998;
+	background-color: #3B5998;
 }
 
 .social-network a.icoTwitter {
-	background-color:#33ccff;
+	background-color: #33ccff;
 }
 
 .social-network a.icoGoogle {
-	background-color:#fb3958;
+	background-color: #fb3958;
 }
 
 .social-network a.icoLinkedin {
-	background-color:#007bb7;
+	background-color: #007bb7;
 }
 
 .social-circle li a {
-	display:inline-block;
-	position:relative;
-	margin:0 auto 0 auto;
-	-moz-border-radius:50%;
-	-webkit-border-radius:50%;
-	border-radius:50%;
-	text-align:center;
+	display: inline-block;
+	position: relative;
+	margin: 0 auto 0 auto;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	text-align: center;
 	width: 40px;
 	height: 40px;
-	font-size:20px;
+	font-size: 20px;
 	background: #1ea097;
 }
+
 .social-circle li i {
-	margin:0;
-	line-height:40px;
+	margin: 0;
+	line-height: 40px;
 	text-align: center;
 }
 
-.social-circle li a:hover i, .triggeredHover {
+.social-circle li a:hover i,
+.triggeredHover {
 	-moz-transform: rotate(360deg);
 	-webkit-transform: rotate(360deg);
 	-ms--transform: rotate(360deg);
@@ -649,6 +653,7 @@ ul.social-network li {
 	-ms-transition: all 0.2s;
 	transition: all 0.2s;
 }
+
 .social-circle i {
 	color: #fff;
 	-webkit-transition: all 0.8s;
@@ -659,41 +664,54 @@ ul.social-network li {
 }
 
 
-
+.dropdown-item.active,
+.dropdown-item:active {
+	text-decoration: none;
+	background-color: #fbfbfb;
+	color: #17a2b8;
+}
 
 /* Media Query */
 
 
 @media (min-width: 576px) {
-.modal-dialog {
-    max-width: 350px;
+	.modal-dialog {
+		max-width: 350px;
+	}
 }
-}
+
 @media (min-width: 767px) {
 	#wrapper {
 		padding-left: 240px;
 		padding-top: 62px;
 	}
+
 	#wrapper.toggled {
 		padding-left: 60px;
 	}
+
 	#sidebar-wrapper {
 		width: 240px;
 	}
+
 	#wrapper.toggled #sidebar-wrapper {
 		width: 0;
 	}
+
 	#wrapper.toggled #content-wrapper {
 		position: absolute;
 		margin-right: -190px;
 	}
+
 	#wrapper.toggled {
 		padding-left: 0px;
 	}
+
 	#content-wrapper {
 		position: relative;
 		top: 0;
 	}
+
 	#wrapper.toggled #content-wrapper {
 		position: relative;
 		margin-right: 60px;
@@ -704,10 +722,12 @@ ul.social-network li {
 	#content-wrapper {
 		padding: 30px 30px;
 	}
+
 	header .navbar-light .navbar-nav .nav-link {
 		color: #000;
 		padding: 10px 20px;
 	}
+
 	.navbar {
 		padding: 4px 15px;
 	}
@@ -718,9 +738,11 @@ ul.social-network li {
 	.user-dashboard .card .card-body {
 		padding: 15px;
 	}
+
 	header img {
 		width: 100px;
 	}
+
 	.navbar-collapse {
 		margin-top: 10px;
 	}
@@ -740,10 +762,12 @@ ul.social-network li {
 		position: absolute;
 		margin-right: -250px;
 	}
+
 	#content-wrapper {
 		position: relative;
 		top: 0;
 	}
+
 	#wrapper.toggled #content-wrapper {
 		position: relative;
 		margin-right: 250px;
@@ -759,32 +783,40 @@ ul.social-network li {
 	#wrapper {
 		padding-left: 0;
 	}
+
 	.navbar-light .navbar-toggler:focus {
 		outline: none;
 	}
+
 	#sidebar-wrapper {
 		width: 0;
 	}
+
 	#wrapper.toggled #sidebar-wrapper {
 		width: 240px;
 		box-shadow: 0 0 11px #0000002e;
 	}
+
 	#wrapper.toggled #content-wrapper {
 		position: absolute;
 		margin-right: -240px;
 	}
+
 	#content-wrapper {
 		position: relative;
 		padding: 30px 20px 30px 20px;
 	}
+
 	#wrapper.toggled #content-wrapper {
 		position: relative;
 		margin-right: 250px;
 	}
+
 	.sidebar-nav {
 		position: absolute;
-		top: 35px;
+		/* top: 35px; */
 	}
+
 	.arabic-block h5 {
 		font-size: 32px;
 	}
@@ -795,4 +827,3 @@ ul.social-network li {
 }
 
 @media (max-width: 576px) {}
-
